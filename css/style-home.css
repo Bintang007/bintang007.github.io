@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: #DDDDDD;
+    margin-right: 200px;
+}
+
+
+/*button style*/
+button {
+    min-width: 150px;
+    padding: 10px 5px;
+    border-width: 2px;
+    border-style: solid;
+    letter-spacing: 2px;
+    font: 20px bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button.setting_button {
+    margin-right: 350px;
+}
+
+button.setting_button,
+button.profile_button,
+button.home_button {
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+div.search-container {
+    position: absolute;
+    top: 15px;
+    right: 200px;
+}
+
+input.searchA {
+    padding: 5px;
+    height: 20px;
+    border-color: rgba(0, 0, 0, 0.2);
+    ;
+    opacity: 0.6;
+    margin-right: 10px;
+    width: 200px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    border: solid;
+    border-radius: 5px;
+}
+
+input[type:"text"]:hover,
+input[type:"text"]:focus,
+input[type:"text"]:activate {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+
+button:hover,
+button:focus,
+button:active {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+button.keluar_button {
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-weight: 500;
+}
+
+button.keluar_button:hover,
+button.keluar_button:focus,
+button.keluar_button:active {
+    opacity: 0.8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+
+
+/* Header */
+header {
+    background: hsla(0, 0%, 78%, 0.6);
+    padding: 10px 20px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: right;
+}
+
+header a {
+    text-shadow: -1px 0 rgba(255, 225, 255, 0.6), 0 1px rgba(255, 225, 255, 0.6);
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* Content */
+
+.page {
+    margin-top: -67px;
+    color: #dddddd;
+}
+
+.one .page-container {
+    position: absolute;
+    top: 30px;
+    overflow: hidden;
+    bottom: 10px;
+    margin-left: -500px;
+    left: 50%;
+    margin-bottom: 150px;
+    max-width: 950px;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.one .page-container h2 {
+    position: absolute;
+    font-size: 4em;
+    top: 5px;
+}
+
+.one .page-container p {
+    padding: 20px 0;
+    line-height: 1.5em;
+}
+
+.one .page-container button {
+    font-size: 10px;
+    color: #dddddd;
+}
+
+
+.three .page-container {
+    overflow: hidden;
+    position: absolute;
+    bottom: -50px;
+    margin-left: -400px;
+    left: 50%;
+    margin-bottom: 100px;
+    max-width: 650px;
+    width: 450px;
+    height: 500px;
+    max-height: 800px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.three .page-container h2 {
+    font-size: 4em;
+}
+
+.three .page-container p {
+    padding: 20px 0;
+    line-height: 1.5em;
+}
+
+.three .page-container button {
+    position: absolute;
+    bottom: 10px;
+    font-size: 10px;
+    color: #dddddd;
+}

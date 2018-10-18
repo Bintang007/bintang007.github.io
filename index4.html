@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FAMILY TREE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The plugin will detect your mouse wheel and swipe gestures to determine which way the page should scroll." />
+    <meta name="keywords" content="scroller, jquery one page scroll, onepagescroll, animated scrolling" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/onepage-scroll.css" />
+    <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style-home.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="search-container">
+            <input class="searchA" type="text" placeholder="Cari..." name="search">
+            <a href="#">
+                <i class="fa fa-search" style="font-size: 20px"></i>
+            </a>
+        </div>
+        <a href="index4.html"><button class="home_button">BERANDA</button></a>
+        <a href="#"><button class="profile_button">PROFIL</button></a>
+        <a href="#"><button class="setting_button">PENGATURAN</button></a>
+        <a href="index.html"><button class="keluar_button">KELUAR</button></a>
+    </header>
+    <div class="main">
+
+        <section class="page one" style="background-image: url(assets/family_leaf_blur.jpg); background-position: center">
+            <div class="page-container">
+                <h2>pohon keluarga cemara</h2>
+                <img src="assets/keluarga_cemara.PNG" style="margin-top: 60px;">
+                <p><a href="index5.html"><button>SELENGKAPNYA</button></a></p>
+            </div>
+        </section>
+
+        <section class="page three" style="background-image: url(assets/family_ski_blur.jpg); background-position: center">
+            <div class="page-container">
+                <h2>Postingan</h2>
+                <img src="assets/group.png" style="height: 400px; position: absolute; top: 140px">
+                <p><a href="index6.html"><button>SELENGKAPNYA</button></a></p>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript">
+        $(".main").onepage_scroll({
+            sectionContainer: "section",
+        });
+    </script>
+</body>
+
+</html>

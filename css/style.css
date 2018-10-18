@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: #DDDDDD;
+    margin-right: 200px;
+}
+
+/*button style*/
+button {
+    min-width: 150px;
+    padding: 10px 5px;
+    border-width: 2px;
+    border-style: solid;
+    letter-spacing: 2px;
+    font: 20px bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+    background: transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus,
+button:active {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+button.masuk_button {
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border-color: black;
+    font-weight: 500;
+}
+
+button.masuk_button:hover,
+button.masuk_button:focus,
+button.masuk_button:active {
+    opacity: 0.8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+button.daftar_button {
+    opacity: 0.6;
+    background-color: #dddddd;
+    color: #000000;
+    font-weight: 500;
+}
+
+button.daftar_button:hover,
+button.daftar_button:focus,
+button.daftar_button:active {
+    opacity: 0.8;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s;
+}
+
+/* Header */
+header {
+    background: hsla(0, 0%, 78%, 0.6);
+    padding: 10px 20px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    text-align: right;
+}
+
+header a {
+    text-shadow: -1px 0 rgba(255, 225, 255, 0.6), 0 1px rgba(255, 225, 255, 0.6);
+    color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* Content */
+
+.page {
+    margin-top: -67px;
+    color: #dddddd;
+}
+
+/*
+.one {
+    background-color: #ae6c66;
+}
+*/
+
+.one .page-container {
+    position: absolute;
+    bottom: 10px;
+    margin-left: -400px;
+    left: 50%;
+    margin-bottom: 150px;
+    max-width: 950px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.one .page-container h2 {
+    font-size: 4em;
+}
+
+.one .page-container p {
+    padding: 20px 0;
+    line-height: 1.5em;
+}
+
+.one .page-container button {
+    font-size: 10px;
+    color: #dddddd;
+}
+
+.two {
+    background-color: #b69877;
+}
+
+.two .page-container {
+    position: absolute;
+    bottom: 10px;
+    margin-left: -400px;
+    left: 50%;
+    margin-bottom: 150px;
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.two .page-container h2 {
+    font-size: 4em;
+
+}
+
+.two .page-container p {
+    padding: 20px 0;
+    line-height: 1.5em;
+}
+
+.two .page-container button {
+    font-size: 10px;
+    color: #dddddd;
+}
+
+.three {
+    background-color: #036564;
+}
+
+.three .page-container {
+    position: absolute;
+    bottom: 0px;
+    margin-left: -400px;
+    left: 50%;
+    margin-bottom: 150px;
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.three .page-container h2 {
+    font-size: 4em;
+}
+
+.three .page-container p {
+    padding: 20px 0;
+    line-height: 1.5em;
+}
+
+.three .page-container button {
+    font-size: 10px;
+    color: #dddddd;
+}
