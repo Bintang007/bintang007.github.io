@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/form_input.js">
+    </script>
+</head>
+
+<body>
+
+    <form name="form" method="get" action="#">
+        <pre>
+        <input type="text" name="nama" placeholder="Nama Lengkap" required />
+        <input type="text" name="tempat_lahir" placeholder="Tempat Lahir" required />
+        <input type="text" name="tanggal" placeholder="Tanggal Lahir" onfocus="(this.type='date')" onblur="(this.type='text')" required />
+        <input type="text" name="alamat" placeholder="Alamat" required />
+        <input type="text" name="nama_ayah" placeholder="Nama Ayah" required>
+        <input type="text" name="nama_ibu" placeholder="Nama Ibu" required>
+        </pre>
+        <button onclick="setInput()">kilk saya</button>
+
+    </form>
+
+    <table id="table_input">
+        <tr>
+            <th>Nama Lengkap</th>
+            <th>Tempat Lahir</th>
+            <th>Tanggal</th>
+            <th>Alamat</th>
+            <th>Nama Ayah</th>
+            <th>Nama Ibu</th>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>

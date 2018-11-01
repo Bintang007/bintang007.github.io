@@ -14,67 +14,41 @@ body {
     font-weight: 300;
 }
 
-#login-box {
+#form-box {
     position: relative;
     margin: 7% auto;
-    width: 600px;
-    height: 500px;
+    width: 40%;
+    height: 80%;
     background: #FFF;
     border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.left {
-    position: absolute;
-    top: 0;
-    left: 0;
-    box-sizing: border-box;
-    padding: 40px;
-    width: 300px;
-    height: 400px;
-}
-
-.or {
-    position: absolute;
-    top: 250px;
-    left: 280px;
-    width: 40px;
-    height: 40px;
-    background: #DDD;
-    border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    line-height: 40px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.right {
-    position: absolute;
-    top: 0;
-    right: 0;
+
+form {
+    position: relative;
     box-sizing: border-box;
-    padding: 40px;
-    width: 300px;
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    border-radius: 0 2px 2px 0;
+    margin: 7% auto;
+    width: 50%;
+    height: 50%;
 }
 
 h1 {
-    margin: 0 0 20px 0;
+    position: relative;
+    padding-top: 20px;
     font-weight: 300;
     font-size: 28px;
 }
 
 input[type="text"],
-input[type="password"],
 input[type="date"] {
     display: block;
     box-sizing: border-box;
     margin-bottom: 20px;
-    padding: 4px;
-    width: 220px;
-    height: 32px;
+    padding: 7px;
+    width: 90%;
+    height: 100%;
     border: none;
     border-bottom: 1px solid #AAA;
     font-family: 'Roboto', sans-serif;
@@ -82,14 +56,21 @@ input[type="date"] {
     transition: 0.2s;
 }
 
+input[type="text"]:hover,
+input[type="date"]:hover {
+    border-bottom: 1px solid #3cd5e2;
+    transition: 0.2s;
+}
+
 input[type="text"]:focus,
-input[type="password"]:focus,
 input[type="date"]:focus {
     border-bottom: 2px solid #16a085;
     transition: 0.2s;
 }
 
 input[type="submit"] {
+    position: relative;
+    right: -140px;
     margin-top: 15px;
     width: 120px;
     height: 32px;
@@ -117,34 +98,45 @@ input[type="submit"]:active {
     transition: 0.2s;
 }
 
-button.social-signin {
-    margin-bottom: 20px;
-    width: 220px;
-    height: 36px;
-    border: none;
+#table-box {
+    display: none;
+    position: relative;
+    margin: 7% auto;
+    width: 40%;
+    height: 80%;
+    background: #FFF;
     border-radius: 2px;
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-button.social-signin:hover,
-button.social-signin:focus {
+    text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    transition: 0.2s;
+    overflow-x: auto;
 }
 
-button.social-signin:active {
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
-    transition: 0.2s;
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    box-sizing: border-box;
+    margin: 7% auto;
+    width: 60%;
+    height: 50%;
 }
 
-button.social-signin.twitter {
-    background: #55ACEE;
+th,
+td {
+    padding: 5px;
+    text-align: left;
+    border: 1px solid white;
 }
 
-button.social-signin.google {
-    background: #DD4B39;
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background: #ddd;
+}
+
+th {
+    background-color: forestgreen;
+    color: white;
 }
