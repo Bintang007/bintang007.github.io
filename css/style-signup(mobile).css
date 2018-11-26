@@ -39,6 +39,7 @@ body {
 }
 
 .or {
+    display: none;
     position: absolute;
     top: 250px;
     left: 280px;
